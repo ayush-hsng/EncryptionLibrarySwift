@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3AA11B2BB5C5A8001EADCF /* EncryptionLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA11A2BB5C5A8001EADCF /* EncryptionLibraryApp.swift */; };
+		EB3AA11D2BB5C5A8001EADCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA11C2BB5C5A8001EADCF /* ContentView.swift */; };
+		EB3AA11F2BB5C5AD001EADCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3AA11E2BB5C5AD001EADCF /* Assets.xcassets */; };
+		EB3AA1222BB5C5AD001EADCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3AA1212BB5C5AD001EADCF /* Preview Assets.xcassets */; };
+		EB3AA12C2BB5C5AE001EADCF /* EncryptionLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA12B2BB5C5AE001EADCF /* EncryptionLibraryTests.swift */; };
+		EB3AA1362BB5C5AE001EADCF /* EncryptionLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1352BB5C5AE001EADCF /* EncryptionLibraryUITests.swift */; };
+		EB3AA1382BB5C5AE001EADCF /* EncryptionLibraryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1372BB5C5AE001EADCF /* EncryptionLibraryUITestsLaunchTests.swift */; };
+		EB3AA14F2BB5C78D001EADCF /* AESCryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA14E2BB5C78D001EADCF /* AESCryptoService.swift */; };
+		EB3AA1522BB5C9D2001EADCF /* String + Entensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1512BB5C9D2001EADCF /* String + Entensions.swift */; };
+		EB3AA1542BB5CD1F001EADCF /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1532BB5CD1F001EADCF /* CryptoService.swift */; };
+		EB3AA1562BB66CA9001EADCF /* RSAEncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1552BB66CA9001EADCF /* RSAEncryptionService.swift */; };
+		EB3AA1582BB671E0001EADCF /* RSADecryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1572BB671E0001EADCF /* RSADecryptionService.swift */; };
+		EB3AA1592BB67A85001EADCF /* RSAEncryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1552BB66CA9001EADCF /* RSAEncryptionService.swift */; };
+		EB3AA15A2BB67A88001EADCF /* RSADecryptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1572BB671E0001EADCF /* RSADecryptionService.swift */; };
+		EB3AA15B2BB67A8A001EADCF /* AESCryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA14E2BB5C78D001EADCF /* AESCryptoService.swift */; };
+		EB3AA15C2BB67A8E001EADCF /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1532BB5CD1F001EADCF /* CryptoService.swift */; };
+		EB3AA15D2BB68D9B001EADCF /* String + Entensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3AA1512BB5C9D2001EADCF /* String + Entensions.swift */; };
+		EB4321EE2BB6E34D00C2EB2A /* RSACryptoServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4321ED2BB6E34D00C2EB2A /* RSACryptoServiceTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB3AA1282BB5C5AE001EADCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3AA10F2BB5C5A7001EADCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3AA1162BB5C5A8001EADCF;
+			remoteInfo = EncryptionLibrary;
+		};
+		EB3AA1322BB5C5AE001EADCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB3AA10F2BB5C5A7001EADCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB3AA1162BB5C5A8001EADCF;
+			remoteInfo = EncryptionLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3AA1172BB5C5A8001EADCF /* EncryptionLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3AA11A2BB5C5A8001EADCF /* EncryptionLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionLibraryApp.swift; sourceTree = "<group>"; };
+		EB3AA11C2BB5C5A8001EADCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB3AA11E2BB5C5AD001EADCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3AA1212BB5C5AD001EADCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB3AA1272BB5C5AE001EADCF /* EncryptionLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptionLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3AA12B2BB5C5AE001EADCF /* EncryptionLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionLibraryTests.swift; sourceTree = "<group>"; };
+		EB3AA1312BB5C5AE001EADCF /* EncryptionLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptionLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3AA1352BB5C5AE001EADCF /* EncryptionLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionLibraryUITests.swift; sourceTree = "<group>"; };
+		EB3AA1372BB5C5AE001EADCF /* EncryptionLibraryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionLibraryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB3AA14E2BB5C78D001EADCF /* AESCryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESCryptoService.swift; sourceTree = "<group>"; };
+		EB3AA1512BB5C9D2001EADCF /* String + Entensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Entensions.swift"; sourceTree = "<group>"; };
+		EB3AA1532BB5CD1F001EADCF /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		EB3AA1552BB66CA9001EADCF /* RSAEncryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAEncryptionService.swift; sourceTree = "<group>"; };
+		EB3AA1572BB671E0001EADCF /* RSADecryptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSADecryptionService.swift; sourceTree = "<group>"; };
+		EB4321ED2BB6E34D00C2EB2A /* RSACryptoServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSACryptoServiceTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3AA1142BB5C5A8001EADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA1242BB5C5AE001EADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA12E2BB5C5AE001EADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3AA10E2BB5C5A7001EADCF = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1192BB5C5A8001EADCF /* EncryptionLibrary */,
+				EB3AA12A2BB5C5AE001EADCF /* EncryptionLibraryTests */,
+				EB3AA1342BB5C5AE001EADCF /* EncryptionLibraryUITests */,
+				EB3AA1182BB5C5A8001EADCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3AA1182BB5C5A8001EADCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1172BB5C5A8001EADCF /* EncryptionLibrary.app */,
+				EB3AA1272BB5C5AE001EADCF /* EncryptionLibraryTests.xctest */,
+				EB3AA1312BB5C5AE001EADCF /* EncryptionLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3AA1192BB5C5A8001EADCF /* EncryptionLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1502BB5C9C0001EADCF /* Extensions */,
+				EB3AA1492BB5C6C1001EADCF /* CryptoService */,
+				EB3AA11A2BB5C5A8001EADCF /* EncryptionLibraryApp.swift */,
+				EB3AA11C2BB5C5A8001EADCF /* ContentView.swift */,
+				EB3AA11E2BB5C5AD001EADCF /* Assets.xcassets */,
+				EB3AA1202BB5C5AD001EADCF /* Preview Content */,
+			);
+			path = EncryptionLibrary;
+			sourceTree = "<group>";
+		};
+		EB3AA1202BB5C5AD001EADCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1212BB5C5AD001EADCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB3AA12A2BB5C5AE001EADCF /* EncryptionLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4321ED2BB6E34D00C2EB2A /* RSACryptoServiceTest.swift */,
+				EB3AA12B2BB5C5AE001EADCF /* EncryptionLibraryTests.swift */,
+			);
+			path = EncryptionLibraryTests;
+			sourceTree = "<group>";
+		};
+		EB3AA1342BB5C5AE001EADCF /* EncryptionLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1352BB5C5AE001EADCF /* EncryptionLibraryUITests.swift */,
+				EB3AA1372BB5C5AE001EADCF /* EncryptionLibraryUITestsLaunchTests.swift */,
+			);
+			path = EncryptionLibraryUITests;
+			sourceTree = "<group>";
+		};
+		EB3AA1492BB5C6C1001EADCF /* CryptoService */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA14B2BB5C6F5001EADCF /* RSACryptoService */,
+				EB3AA14A2BB5C6CB001EADCF /* AESCryptoService */,
+				EB3AA1532BB5CD1F001EADCF /* CryptoService.swift */,
+			);
+			path = CryptoService;
+			sourceTree = "<group>";
+		};
+		EB3AA14A2BB5C6CB001EADCF /* AESCryptoService */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA14E2BB5C78D001EADCF /* AESCryptoService.swift */,
+			);
+			path = AESCryptoService;
+			sourceTree = "<group>";
+		};
+		EB3AA14B2BB5C6F5001EADCF /* RSACryptoService */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1552BB66CA9001EADCF /* RSAEncryptionService.swift */,
+				EB3AA1572BB671E0001EADCF /* RSADecryptionService.swift */,
+			);
+			path = RSACryptoService;
+			sourceTree = "<group>";
+		};
+		EB3AA1502BB5C9C0001EADCF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB3AA1512BB5C9D2001EADCF /* String + Entensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3AA1162BB5C5A8001EADCF /* EncryptionLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3AA13B2BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibrary" */;
+			buildPhases = (
+				EB3AA1132BB5C5A8001EADCF /* Sources */,
+				EB3AA1142BB5C5A8001EADCF /* Frameworks */,
+				EB3AA1152BB5C5A8001EADCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptionLibrary;
+			productName = EncryptionLibrary;
+			productReference = EB3AA1172BB5C5A8001EADCF /* EncryptionLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB3AA1262BB5C5AE001EADCF /* EncryptionLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3AA13E2BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibraryTests" */;
+			buildPhases = (
+				EB3AA1232BB5C5AE001EADCF /* Sources */,
+				EB3AA1242BB5C5AE001EADCF /* Frameworks */,
+				EB3AA1252BB5C5AE001EADCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3AA1292BB5C5AE001EADCF /* PBXTargetDependency */,
+			);
+			name = EncryptionLibraryTests;
+			productName = EncryptionLibraryTests;
+			productReference = EB3AA1272BB5C5AE001EADCF /* EncryptionLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB3AA1302BB5C5AE001EADCF /* EncryptionLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3AA1412BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibraryUITests" */;
+			buildPhases = (
+				EB3AA12D2BB5C5AE001EADCF /* Sources */,
+				EB3AA12E2BB5C5AE001EADCF /* Frameworks */,
+				EB3AA12F2BB5C5AE001EADCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB3AA1332BB5C5AE001EADCF /* PBXTargetDependency */,
+			);
+			name = EncryptionLibraryUITests;
+			productName = EncryptionLibraryUITests;
+			productReference = EB3AA1312BB5C5AE001EADCF /* EncryptionLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3AA10F2BB5C5A7001EADCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EB3AA1162BB5C5A8001EADCF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EB3AA1262BB5C5AE001EADCF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB3AA1162BB5C5A8001EADCF;
+					};
+					EB3AA1302BB5C5AE001EADCF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EB3AA1162BB5C5A8001EADCF;
+					};
+				};
+			};
+			buildConfigurationList = EB3AA1122BB5C5A8001EADCF /* Build configuration list for PBXProject "EncryptionLibrary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3AA10E2BB5C5A7001EADCF;
+			productRefGroup = EB3AA1182BB5C5A8001EADCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3AA1162BB5C5A8001EADCF /* EncryptionLibrary */,
+				EB3AA1262BB5C5AE001EADCF /* EncryptionLibraryTests */,
+				EB3AA1302BB5C5AE001EADCF /* EncryptionLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3AA1152BB5C5A8001EADCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3AA1222BB5C5AD001EADCF /* Preview Assets.xcassets in Resources */,
+				EB3AA11F2BB5C5AD001EADCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA1252BB5C5AE001EADCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA12F2BB5C5AE001EADCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3AA1132BB5C5A8001EADCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3AA1522BB5C9D2001EADCF /* String + Entensions.swift in Sources */,
+				EB3AA1582BB671E0001EADCF /* RSADecryptionService.swift in Sources */,
+				EB3AA14F2BB5C78D001EADCF /* AESCryptoService.swift in Sources */,
+				EB3AA11D2BB5C5A8001EADCF /* ContentView.swift in Sources */,
+				EB3AA1562BB66CA9001EADCF /* RSAEncryptionService.swift in Sources */,
+				EB3AA1542BB5CD1F001EADCF /* CryptoService.swift in Sources */,
+				EB3AA11B2BB5C5A8001EADCF /* EncryptionLibraryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA1232BB5C5AE001EADCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3AA15B2BB67A8A001EADCF /* AESCryptoService.swift in Sources */,
+				EB3AA12C2BB5C5AE001EADCF /* EncryptionLibraryTests.swift in Sources */,
+				EB3AA1592BB67A85001EADCF /* RSAEncryptionService.swift in Sources */,
+				EB4321EE2BB6E34D00C2EB2A /* RSACryptoServiceTest.swift in Sources */,
+				EB3AA15C2BB67A8E001EADCF /* CryptoService.swift in Sources */,
+				EB3AA15D2BB68D9B001EADCF /* String + Entensions.swift in Sources */,
+				EB3AA15A2BB67A88001EADCF /* RSADecryptionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB3AA12D2BB5C5AE001EADCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3AA1362BB5C5AE001EADCF /* EncryptionLibraryUITests.swift in Sources */,
+				EB3AA1382BB5C5AE001EADCF /* EncryptionLibraryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB3AA1292BB5C5AE001EADCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3AA1162BB5C5A8001EADCF /* EncryptionLibrary */;
+			targetProxy = EB3AA1282BB5C5AE001EADCF /* PBXContainerItemProxy */;
+		};
+		EB3AA1332BB5C5AE001EADCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB3AA1162BB5C5A8001EADCF /* EncryptionLibrary */;
+			targetProxy = EB3AA1322BB5C5AE001EADCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB3AA1392BB5C5AE001EADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB3AA13A2BB5C5AE001EADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB3AA13C2BB5C5AE001EADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EncryptionLibrary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB3AA13D2BB5C5AE001EADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EncryptionLibrary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB3AA13F2BB5C5AE001EADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncryptionLibrary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EncryptionLibrary";
+			};
+			name = Debug;
+		};
+		EB3AA1402BB5C5AE001EADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncryptionLibrary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EncryptionLibrary";
+			};
+			name = Release;
+		};
+		EB3AA1422BB5C5AE001EADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncryptionLibrary;
+			};
+			name = Debug;
+		};
+		EB3AA1432BB5C5AE001EADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.EncryptionLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncryptionLibrary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3AA1122BB5C5A8001EADCF /* Build configuration list for PBXProject "EncryptionLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3AA1392BB5C5AE001EADCF /* Debug */,
+				EB3AA13A2BB5C5AE001EADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3AA13B2BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3AA13C2BB5C5AE001EADCF /* Debug */,
+				EB3AA13D2BB5C5AE001EADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3AA13E2BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3AA13F2BB5C5AE001EADCF /* Debug */,
+				EB3AA1402BB5C5AE001EADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3AA1412BB5C5AE001EADCF /* Build configuration list for PBXNativeTarget "EncryptionLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3AA1422BB5C5AE001EADCF /* Debug */,
+				EB3AA1432BB5C5AE001EADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3AA10F2BB5C5A7001EADCF /* Project object */;
+}
